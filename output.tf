@@ -1,3 +1,3 @@
 output "rabbitmq_instances" {
-  values = aws_mq_broker.mq.instances
+  value = aws_mq_broker.mq.instances
 }
